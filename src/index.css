@@ -1,0 +1,16 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { height: -webkit-fill-available; }
+body {
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-text-size-adjust: 100%;
+  overscroll-behavior: none;
+  background: #0A0F1E;
+}
+#root { height: 100%; }
+::-webkit-scrollbar { display: none; }
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
+input[type="number"] { -moz-appearance: textfield; }
+button { -webkit-tap-highlight-color: transparent; }
